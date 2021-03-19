@@ -15,7 +15,8 @@ import java.util.Scanner;
 class Main{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        Integer inputNumber = scanner.nextInt();
+        //用于输入
+        int inputNumber = scanner.nextInt();
         int flagNumber = scanner.nextInt();
 
         String numberStr = String.valueOf(inputNumber);
