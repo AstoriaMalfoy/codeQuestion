@@ -1,3 +1,9 @@
+import org.junit.Test;
+import org.junit.experimental.theories.suppliers.TestedOn;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class MethodTest {
     public static void main(String[] args) {
         test01();
@@ -32,5 +38,50 @@ public class MethodTest {
             }
         }
         return false;
+    }
+
+    @Test
+    public void test011(){
+        String str1 = "abc";
+        String str2 = "a" + "bc";
+        String str3 = "a" + new String("bc");
+        System.err.println(str1 == str2);
+        System.err.println(str1 == str3);
+
+//        List< ? extends Number> foo = new ArrayList<Double>();
+//        List< ? extends Integer> foo12 = new ArrayList<Integer>();
+//        List< ? super Number> foo1 = new ArrayList<Integer>();
+//        List< ? super Integer> foo2 = new ArrayList<Number>();
+
+        int x = 3,y=3;
+        switch (x){
+            case 3:
+                y++;
+            case 4:
+                y++;
+            case 5:
+                y++;
+            default:
+                y++;
+        }
+    }
+
+    @Test
+    public void test03(){
+        List<String> list = new ArrayList<String>(){
+            {
+                add("a");
+                add("b");
+                add("c");
+
+            }
+        };
+        for(int i=0,m=list.size();i<m;i++){
+            String str = list.get(i);
+            if("a".equals(str)){
+                list.remove(i);
+            }
+        }
+        System.out.println(list.size());
     }
 }
