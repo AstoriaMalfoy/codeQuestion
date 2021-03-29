@@ -2,7 +2,9 @@ import org.junit.Test;
 import org.junit.experimental.theories.suppliers.TestedOn;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class MethodTest {
     public static void main(String[] args) {
@@ -84,4 +86,42 @@ public class MethodTest {
         }
         System.out.println(list.size());
     }
+
+    @Test
+    public void testQuestion1(){
+        int[] arrays = new int[]{0,-5,3,-2,-6,1};
+        System.out.println(getResult(arrays,1));
+    }
+    public int getResult(int[] array,int fix){
+        int result = 0;
+        for(int i=0;i<array.length;++i){
+            array[i] = Math.abs(array[i]-fix);
+        }
+        for(int i=0;i<4;++i){
+            result+=getMinValuePosition(array);
+        }
+        return result;
+    }
+    public int getMinValuePosition(int[] array){
+        int minValue = Integer.MAX_VALUE;
+        int minIndex = -1;
+        for(int i=0;i<array.length;++i){
+            if(array[i] < minValue){
+                minValue = array[i];
+                minIndex = i;
+            }
+        }
+        array[minIndex] = Integer.MAX_VALUE;
+        return minIndex;
+    }
+
+    @Test
+    public void testMethod(){
+        Map<Integer,String> mas = new HashMap<>();
+        mas.put(1,"ast");
+        System.out.println(mas.get(1));
+        System.out.println(mas.get(2));
+    }
+    
+
 }
