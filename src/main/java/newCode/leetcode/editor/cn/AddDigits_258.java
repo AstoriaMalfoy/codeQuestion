@@ -12,7 +12,7 @@ public class AddDigits_258{
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int addDigits(int num) {
-        return null;
+        return 11;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
