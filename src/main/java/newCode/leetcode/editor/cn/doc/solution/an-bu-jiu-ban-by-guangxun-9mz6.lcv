@@ -1,0 +1,35 @@
+直观的感受是，将其转化为数字 (Integer.parseInt()) 但是提交时发觉有的数字太大，溢出了因此没必要存储为数字，可以直接存储为字段字符串。
+
+还有一个特殊的数字就是前导0，比如“0” “00” “000” 都是“0”同一个数字因此，因此数字为一位时直接存储，多位时需要去除前导的0字符串。
+
+* 
+
+```
+public int numDifferentIntegers(String word) {
+    Set<String> set = new HashSet<>();
+    for (int i = 0; i < word.length(); ) {
+        if (word.charAt(i) >= '0' && word.charAt(i) <= '9') {
+            int begin = i;
+            while (i < word.length() && word.charAt(i) >= '0' && word.charAt(i) <= '9') {
+                i++;
+            }
+            if (begin == i - 1) {
+                set.add(word.substring(begin, i));
+            } else {
+                while (begin < i && word.charAt(begin) == '0') {
+                    begin++;
+                }
+                if (begin >= i) {
+                    set.add("0");
+                } else {
+                    set.add(word.substring(begin, i));
+                }
+            }
+            continue;
+        }
+        i++;
+    }
+    return set.size();
+}
+```
+

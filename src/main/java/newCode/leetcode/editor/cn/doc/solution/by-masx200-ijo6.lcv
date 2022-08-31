@@ -1,0 +1,14 @@
+### 解题思路
+
+正则+哈希集合+大整数,一行搞定
+
+### 代码
+
+* typescript
+
+```typescript
+function numDifferentIntegers(word: string): number {
+return new Set( word.split(/[^\d]+/).filter(Boolean).map(BigInt)).size
+};
+```
+
