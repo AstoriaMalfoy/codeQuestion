@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="LeetcodeEditor">
+    <option name="projectConfig">
+      <map>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/Q2006.Question_2006.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/newCode/leetcode/editor/cn/doc/content/Q2006/Question_2006.md" />
+              <option name="frontendQuestionId" value="leetcode.cn2006" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/newCode/leetcode/editor/cn/Q2006/Question_2006.java" />
+              <option name="titleSlug" value="count-number-of-pairs-with-absolute-difference-k" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/Q2040.Question_2040.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/Q2040.Question_2040.md" />
+              <option name="frontendQuestionId" value="leetcode.cn2040" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/Q2040.Question_2040.java" />
+              <option name="titleSlug" value="kth-smallest-product-of-two-sorted-arrays" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/newCode/leetcode/editor/cn/Q2006.Question_2006.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/newCode/leetcode/editor/cn/doc/content/Q2006/Question_2006.md" />
+              <option name="frontendQuestionId" value="leetcode.cn2006" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/newCode/leetcode/editor/cn/Q2006/Question_2006.java" />
+              <option name="titleSlug" value="count-number-of-pairs-with-absolute-difference-k" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/newCode/leetcode/editor/cn/Q2006/Question_2006.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/newCode/leetcode/editor/cn/doc/content/Q2006/Question_2006.md" />
+              <option name="frontendQuestionId" value="leetcode.cn2006" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/newCode/leetcode/editor/cn/Q2006/Question_2006.java" />
+              <option name="titleSlug" value="count-number-of-pairs-with-absolute-difference-k" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/newCode/leetcode/editor/cn/Q2337/Question_2337.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/newCode/leetcode/editor/cn/doc/content/Q2337/Question_2337.md" />
+              <option name="frontendQuestionId" value="leetcode.cn2337" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/newCode/leetcode/editor/cn/Q2337/Question_2337.java" />
+              <option name="titleSlug" value="move-pieces-to-obtain-a-string" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/newCode/leetcode/editor/cn/Q660/Question_660.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/newCode/leetcode/editor/cn/doc/content/Q660/Question_660.md" />
+              <option name="frontendQuestionId" value="leetcode.cn660" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/newCode/leetcode/editor/cn/Q660/Question_660.java" />
+              <option name="titleSlug" value="remove-9" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/newCode/leetcode/editor/cn/QLCP 46/Question_LCP 46.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/newCode/leetcode/editor/cn/doc/content/QLCP 46/Question_LCP 46.md" />
+              <option name="frontendQuestionId" value="leetcode.cnLCP 46" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/newCode/leetcode/editor/cn/QLCP 46/Question_LCP 46.java" />
+              <option name="titleSlug" value="05ZEDJ" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/newCode/leetcode/editor/cn/leetcode/editor/cn/Q2006.Question_2006.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/newCode/leetcode/editor/cn/doc/content/Q2006/Question_2006.md" />
+              <option name="frontendQuestionId" value="leetcode.cn2006" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/newCode/leetcode/editor/cn/Q2006/Question_2006.java" />
+              <option name="titleSlug" value="count-number-of-pairs-with-absolute-difference-k" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
