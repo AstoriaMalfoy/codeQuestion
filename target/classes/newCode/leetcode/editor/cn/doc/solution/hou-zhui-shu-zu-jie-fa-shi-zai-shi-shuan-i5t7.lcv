@@ -1,0 +1,47 @@
+后缀数组讲解可以看 [Pecco](https://www.zhihu.com/people/one-seventh) 大神的笔记 [算法学习笔记(84): 后缀数组](https://zhuanlan.zhihu.com/p/408261126)
+
+## 实现
+
+* C++
+
+```C++
+#define forr(i, x) for(int (i)=1; (i)<=(x); ++(i))
+#define rforr(i, x) for(int (i)=x; (i)>=1; --(i))
+#define MAXN 400005
+#define printlist(l, n) cout << "[ "; for(int (i)=0; (i)<(n); ++(i)) {cout << (l)[i] << " "; } cout << "]" << endl;
+#define tag(s) cout << s << ": "
+
+int sa[MAXN], rk[MAXN << 1], rkt[MAXN << 1], cnt[MAXN], tmp[MAXN];
+
+bool eq(int a, int b, int w) { return rk[a] == rk[b] and rk[a + w] == rk[b + w]; }
+
+class Solution {
+public:
+    string lastSubstring(string s) {
+        int n = s.length();
+        int size = n * 2;
+        memset(rk + 1, 0, size * sizeof(int));
+        memset(cnt + 1, 0, 26 * sizeof(int));
+        memset(rkt + 1, 0, size * sizeof(int));
+        forr(i, n) cnt[rk[i] = s[i - 1] - 96]++;
+        forr(i, 26) cnt[i] += cnt[i - 1];
+        rforr(i, n) sa[cnt[rk[i]]--] = i;
+
+        int w = 1, p, m = 26;
+        for (; w < n; w <<= 1, p = 0) {
+            forr(i, w) tmp[++p] = n - w + i;
+            forr(i, n) if (sa[i] > w) tmp[++p] = sa[i] - w;
+            memset(cnt + 1, 0, m * sizeof(int));
+            forr(i, n) cnt[rkt[i] = rk[tmp[i]]]++;
+            forr(i, m) cnt[i] += cnt[i - 1];
+            rforr(i, n) sa[cnt[rkt[i]]--] = tmp[i];
+            m = 0;
+            forr(i, n) rkt[sa[i]] = eq(sa[i], sa[i - 1], w) ? m : ++m;
+            if (m == n) break;
+            memcpy(rk + 1, rkt + 1, n * sizeof(int));
+        }
+        return s.substr(sa[n] - 1);
+    }
+};
+```
+

@@ -1,0 +1,10 @@
+public class Question_$!{question.frontendQuestionId}{
+    public static void main(String[] args){
+        new Question_$!{question.frontendQuestionId}().run();
+    }
+    public void run(){
+        new Solution();
+    }
+    ${question.code}
+}
+
