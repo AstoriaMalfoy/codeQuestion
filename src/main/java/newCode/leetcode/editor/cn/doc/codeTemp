@@ -1,3 +1,9 @@
+
+// windows title
+Q${question.frontendQuestionId}/Question_${question.frontendQuestionId}
+
+// windows tamplate
+package newCode.leetcode.editor.cn.Q${question.frontendQuestionId};
 public class Question_$!{question.frontendQuestionId}{
     public static void main(String[] args){
         new Question_$!{question.frontendQuestionId}().run();
@@ -6,5 +12,10 @@ public class Question_$!{question.frontendQuestionId}{
         new Solution();
     }
     ${question.code}
+
+    /**
+    * ${question.content}
+    */
 }
+
 
