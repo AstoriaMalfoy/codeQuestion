@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="LeetcodeEditorPro">
+    <option name="a">
+      <map>
+        <entry key="$PROJECT_DIR$/src/main/java/newCode/leetcode/editor/cn/Q1117/Question_1117.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/newCode/leetcode/editor/cn/doc/content/[1117]H2O 生成.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1117" />
+              <option name="host" value="leetcode.cn" />
+              <option name="langSlug" value="java" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/newCode/leetcode/editor/cn/Q1117/Question_1117.java" />
+              <option name="titleSlug" value="building-h2o" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/newCode/leetcode/editor/cn/Q1575/Question_1575.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/newCode/leetcode/editor/cn/doc/content/[1575]统计所有可行路径.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1575" />
+              <option name="host" value="leetcode.cn" />
+              <option name="langSlug" value="java" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/newCode/leetcode/editor/cn/Q1575/Question_1575.java" />
+              <option name="titleSlug" value="count-all-possible-routes" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/newCode/leetcode/editor/cn/Q2545/Question_2545.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/newCode/leetcode/editor/cn/doc/content/[2545]根据第 K 场考试的分数排序.md" />
+              <option name="frontendQuestionId" value="leetcode.cn2545" />
+              <option name="host" value="leetcode.cn" />
+              <option name="langSlug" value="java" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/newCode/leetcode/editor/cn/Q2545/Question_2545.java" />
+              <option name="titleSlug" value="sort-the-students-by-their-kth-score" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

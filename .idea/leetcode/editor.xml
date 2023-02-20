@@ -25,6 +25,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/newCode/leetcode/editor/cn/Q1007/Question_1007.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/newCode/leetcode/editor/cn/doc/content/Q1007/Question_1007.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1007" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/newCode/leetcode/editor/cn/Q1007/Question_1007.java" />
+              <option name="titleSlug" value="minimum-domino-rotations-for-equal-row" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/newCode/leetcode/editor/cn/Q2006.Question_2006.java">
           <value>
             <LeetcodeEditor>
@@ -44,6 +55,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/newCode/leetcode/editor/cn/Q2006/Question_2006.java" />
               <option name="titleSlug" value="count-number-of-pairs-with-absolute-difference-k" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/newCode/leetcode/editor/cn/Q205/Question_205.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/newCode/leetcode/editor/cn/doc/content/Q205/Question_205.md" />
+              <option name="frontendQuestionId" value="leetcode.cn205" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/newCode/leetcode/editor/cn/Q205/Question_205.java" />
+              <option name="titleSlug" value="isomorphic-strings" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -69,6 +91,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/newCode/leetcode/editor/cn/Q2548/Question_2548.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/newCode/leetcode/editor/cn/doc/content/Q2548/Question_2548.md" />
+              <option name="frontendQuestionId" value="leetcode.cn2548" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/newCode/leetcode/editor/cn/Q2548/Question_2548.java" />
+              <option name="titleSlug" value="maximum-price-to-fill-a-bag" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/newCode/leetcode/editor/cn/Q286/Question_286.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/newCode/leetcode/editor/cn/doc/content/Q286/Question_286.md" />
+              <option name="frontendQuestionId" value="leetcode.cn286" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/newCode/leetcode/editor/cn/Q286/Question_286.java" />
+              <option name="titleSlug" value="walls-and-gates" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/newCode/leetcode/editor/cn/Q660/Question_660.java">
           <value>
             <LeetcodeEditor>
@@ -88,6 +132,28 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/newCode/leetcode/editor/cn/QLCP 46/Question_LCP 46.java" />
               <option name="titleSlug" value="05ZEDJ" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/newCode/leetcode/editor/cn/Q剑指 Offer 25/Question_剑指 Offer 25.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/newCode/leetcode/editor/cn/doc/content/Q剑指 Offer 25/Question_剑指 Offer 25.md" />
+              <option name="frontendQuestionId" value="leetcode.cn剑指 Offer 25" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/newCode/leetcode/editor/cn/Q剑指 Offer 25/Question_剑指 Offer 25.java" />
+              <option name="titleSlug" value="he-bing-liang-ge-pai-xu-de-lian-biao-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/newCode/leetcode/editor/cn/Q面试题 17.18/Question_面试题 17.18.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/newCode/leetcode/editor/cn/doc/content/Q面试题 17.18/Question_面试题 17.18.md" />
+              <option name="frontendQuestionId" value="leetcode.cn面试题 17.18" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/newCode/leetcode/editor/cn/Q面试题 17.18/Question_面试题 17.18.java" />
+              <option name="titleSlug" value="shortest-supersequence-lcci" />
             </LeetcodeEditor>
           </value>
         </entry>
