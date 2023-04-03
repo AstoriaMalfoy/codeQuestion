@@ -1,0 +1,23 @@
+<div>
+ <details>
+  <summary>Similar Questions</summary>
+  <div></div>
+ </details>
+</div>
+<div>
+ <details>
+  <summary>Hint 1</summary>
+  <div>
+   What graph algorithm allows us to find whether a path exists?
+  </div>
+ </details>
+</div>
+<div>
+ <details>
+  <summary>Hint 2</summary>
+  <div>
+   Can we use binary search to help us solve the problem?
+  </div>
+ </details>
+</div>
+
