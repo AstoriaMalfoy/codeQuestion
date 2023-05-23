@@ -1,0 +1,21 @@
+
+Q
+java:S3740C"/Provide the parametrized type for this generic.(·€ˆÊüÿÿÿÿ8ÒÄ“„1
+£
+java:S11862"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ì¸Îÿÿÿÿÿ8˜ÒÄ“„1
+
+java:S11867"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ïŒ¨8šÒÄ“„1
+
+java:S1186<"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(àÃƒ8›ÒÄ“„1
+[
+java:S1854C"9Remove this useless assignment to local variable "queue".(·€ˆÊüÿÿÿÿ8ÒÄ“„1
+P
+java:S1172B"3Remove this unused method parameter "initDataList".(¬˜‰´8ÒÄ“„1
+L
+java:S1481C"*Remove this unused "queue" local variable.(·€ˆÊüÿÿÿÿ8ÒÄ“„1
+E
+java:S1068")Remove this unused "value" private field.(ÉŠH8ÒÄ“„1
+E
+java:S1068"(Remove this unused "left" private field.(‡•Á·8ÒÄ“„1
+F
+java:S1068 ")Remove this unused "right" private field.(ãÔÍ8ÒÄ“„1
