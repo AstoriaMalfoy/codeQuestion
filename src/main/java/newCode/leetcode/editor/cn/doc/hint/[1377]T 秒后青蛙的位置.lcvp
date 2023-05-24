@@ -1,0 +1,23 @@
+<div>
+ <details>
+  <summary>Similar Questions</summary>
+  <div></div>
+ </details>
+</div>
+<div>
+ <details>
+  <summary>Hint 1</summary>
+  <div>
+   Use a variation of DFS with parameters 'curent_vertex' and 'current_time'.
+  </div>
+ </details>
+</div>
+<div>
+ <details>
+  <summary>Hint 2</summary>
+  <div>
+   Update the probability considering to jump to one of the children vertices.
+  </div>
+ </details>
+</div>
+
