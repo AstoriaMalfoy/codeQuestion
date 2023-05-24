@@ -3,6 +3,18 @@
   <component name="LeetcodeEditorPro">
     <option name="a">
       <map>
+        <entry key="$PROJECT_DIR$/src/main/java/newCode/leetcode/editor/cn/FrogPositionAfterTSeconds.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/newCode/leetcode/editor/cn/doc/content/[1377]T 秒后青蛙的位置.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1377" />
+              <option name="host" value="leetcode.cn" />
+              <option name="langSlug" value="java" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/newCode/leetcode/editor/cn/FrogPositionAfterTSeconds.java" />
+              <option name="titleSlug" value="frog-position-after-t-seconds" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/newCode/leetcode/editor/cn/LargestValuesFromLabels.java">
           <value>
             <LeetcodeEditor>
