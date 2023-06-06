@@ -1,4 +1,4 @@
- //给你一个正整数数组 arr，考虑所有满足以下条件的二叉树： 
+//给你一个正整数数组 arr，考虑所有满足以下条件的二叉树：
 //
 // 
 // 每个节点都有 0 个或是 2 个子节点。 
@@ -40,18 +40,65 @@
 // Related Topics 栈 贪心 数组 动态规划 单调栈 
 // 👍 305 👎 0
 
-  
+
 package newCode.leetcode.editor.cn;
-public class MinimumCostTreeFromLeafValues{
-  public static void main(String[] args) {
-       Solution solution = new MinimumCostTreeFromLeafValues().new Solution();
-  } 
-  //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
-    public int mctFromLeafValues(int[] arr) {
-        return -1;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class MinimumCostTreeFromLeafValues {
+    public static void main(String[] args) {
+        Solution solution = new MinimumCostTreeFromLeafValues().new Solution();
+        System.out.printf(solution.mctFromLeafValues(new int[]{6, 2, 4}) + "");
     }
-}
+
+    //leetcode submit region begin(Prohibit modification and deletion)
+    class Solution {
+
+        /**
+         * 该题 贪心和单调栈的思路是相似的，都是选择最小值进行合并，保存和并舍弃最小值
+         * @param arr
+         * @return
+         */
+        public int mctFromLeafValues(int[] arr) {
+            // 边界
+            if (arr.length == 2) {
+                return arr[0] * arr[1];
+            }
+            List<Integer> tempList = new ArrayList<>();
+            for (int i : arr) {
+                tempList.add(i);
+            }
+            int result = 0;
+            while (tempList.size() >= 2) {
+                Integer minValue = Integer.MAX_VALUE;
+                Integer minIndex = -1;
+                for (int i = 0; i < tempList.size(); i++) {
+                    if (tempList.get(i) < minValue) {
+                        minValue = tempList.get(i);
+                        minIndex = i;
+                    }
+                }
+                if (minIndex > 0 && minIndex < tempList.size() - 1) {
+                    result += tempList.get(minIndex) * Math.min(tempList.get(minIndex - 1), tempList.get(minIndex + 1));
+                } else if (minIndex == 0) {
+                    result += tempList.get(minIndex) * tempList.get(minIndex + 1);
+                } else {
+                    result += tempList.get(minIndex) * tempList.get(minIndex - 1);
+                }
+                tempList.remove(minValue);
+            }
+
+            return result;
+        }
+
+        /**
+         * 可以使用动态规划，两个二维数组打表，一个用于存储dp的结果值，另一个存储dp区间的最大值。   (dp打表)
+         * dp[i][j] = 0                                                 i=j
+         *            min(dp[i][k] + dp[k+1][j] + m[i][k]*m[k+1][j])    i<j | k∈[i,j)
+         */
+    }
 //leetcode submit region end(Prohibit modification and deletion)
 
 }
