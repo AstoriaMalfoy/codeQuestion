@@ -1,0 +1,11 @@
+
+u	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(­êˆZ8¡ÃÊ­†1
+^
+java:S1854"<Remove this useless assignment to local variable "solution".(û’Ÿ«ùÿÿÿÿ8¦ÃÊ­†1
+O
+java:S1481"-Remove this unused "solution" local variable.(û’Ÿ«ùÿÿÿÿ8¨ÃÊ­†1
+s
+java:S18454"VRename method "MaxDepth" to prevent any misunderstanding/clash with method "maxDepth".(à‡“¼8¨ÃÊ­†1
+j	java:S1004"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(à‡“¼8©ÃÊ­†1
+J
+java:S1659;"-Declare "currentMaxRight" on a separate line.(ãÅÝ»8ªÃÊ­†1

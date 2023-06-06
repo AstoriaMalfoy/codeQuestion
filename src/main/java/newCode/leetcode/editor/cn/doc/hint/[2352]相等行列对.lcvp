@@ -1,0 +1,31 @@
+<div>
+ <details>
+  <summary>Similar Questions</summary>
+  <div></div>
+ </details>
+</div>
+<div>
+ <details>
+  <summary>Hint 1</summary>
+  <div>
+   We can use nested loops to compare every row against every column.
+  </div>
+ </details>
+</div>
+<div>
+ <details>
+  <summary>Hint 2</summary>
+  <div>
+   Another loop is necessary to compare the row and column element by element.
+  </div>
+ </details>
+</div>
+<div>
+ <details>
+  <summary>Hint 3</summary>
+  <div>
+   It is also possible to hash the arrays and compare the hashed values instead.
+  </div>
+ </details>
+</div>
+

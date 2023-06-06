@@ -1,0 +1,23 @@
+<div>
+ <details>
+  <summary>Similar Questions</summary>
+  <div></div>
+ </details>
+</div>
+<div>
+ <details>
+  <summary>Hint 1</summary>
+  <div>
+   Do a DP, where dp(i, j) is the answer for the subarray arr[i]..arr[j].
+  </div>
+ </details>
+</div>
+<div>
+ <details>
+  <summary>Hint 2</summary>
+  <div>
+   For each possible way to partition the subarray i &lt;= k &lt; j, the answer is max(arr[i]..arr[k]) * max(arr[k+1]..arr[j]) + dp(i, k) + dp(k+1, j).
+  </div>
+ </details>
+</div>
+
