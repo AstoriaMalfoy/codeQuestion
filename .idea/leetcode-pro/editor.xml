@@ -111,6 +111,18 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/newCode/leetcode/editor/cn/MiceAndCheese.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/newCode/leetcode/editor/cn/doc/content/[2611]老鼠和奶酪.md" />
+              <option name="frontendQuestionId" value="leetcode.cn2611" />
+              <option name="host" value="leetcode.cn" />
+              <option name="langSlug" value="java" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/newCode/leetcode/editor/cn/MiceAndCheese.java" />
+              <option name="titleSlug" value="mice-and-cheese" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/newCode/leetcode/editor/cn/MinimumCostTreeFromLeafValues.java">
           <value>
             <LeetcodeEditor>
