@@ -1,1 +1,12 @@
 **/*.class
+**/.idea
+**/*.iml
+**/*.ipr
+**/*.iws
+**/*.jar
+**/*.log
+**/*.war
+**/*.ear
+**/*.setting
+**/*.DS_Store
+**/target

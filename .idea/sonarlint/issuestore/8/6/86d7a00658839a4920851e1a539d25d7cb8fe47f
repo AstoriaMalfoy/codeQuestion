@@ -1,8 +1,0 @@
-
-u	java:S120$"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(­êˆZ8¬‹ª†1
-^
-java:S1854'"<Remove this useless assignment to local variable "solution".(‚ÕÛËıÿÿÿÿ8µ‹ª†1
-O
-java:S1481'"-Remove this unused "solution" local variable.(‚ÕÛËıÿÿÿÿ8¶‹ª†1
-E
-java:S1659,"(Declare "totalCount" on a separate line.(ÒÆß–8¸‹ª†1
