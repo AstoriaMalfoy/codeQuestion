@@ -43,8 +43,6 @@
 package newCode.leetcode.editor.cn;
 
 
-import practice.D230522_AC;
-import sun.reflect.generics.tree.Tree;
 
 import java.util.*;
 

@@ -1,8 +1,6 @@
 // windows tamplate
 package newCode.leetcode.editor.cn.Q1663;
 
-import sun.management.counter.StringCounter;
-import sun.swing.StringUIClientPropertyKey;
 
 public class Question_1663 {
     public static void main(String[] args) {

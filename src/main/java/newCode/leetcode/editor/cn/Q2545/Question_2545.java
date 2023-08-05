@@ -2,10 +2,6 @@
 package newCode.leetcode.editor.cn.Q2545;
 
 
-import sun.security.util.ArrayUtil;
-
-import java.lang.reflect.ParameterizedType;
-import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Question_2545 {

@@ -1,6 +1,4 @@
-import sun.swing.StringUIClientPropertyKey;
-
-import java.util.Objects;
+package newCode.leetcode.editor.cn.Q2266;
 
 /**
 * 统计打字方案数

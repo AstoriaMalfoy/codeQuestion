@@ -1,10 +1,5 @@
 package newCode.leetcode.editor.cn.Q2144;
 
-import com.sun.xml.internal.ws.client.ClientSchemaValidationTube;
-
-import java.lang.reflect.ParameterizedType;
-import java.util.Arrays;
-import java.util.Optional;
 
 public class Question_2144 {
     public static void main(String[] args) {
